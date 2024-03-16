@@ -5,9 +5,9 @@ const path = require('path');
 const app = express();
 const port = 3000; // You can use any other available port
 
-app.get('/ramdontt', async (req, res) => {
+app.get('/ramdonvdcosplay', async (req, res) => {
   try {
-    const edits = ["@iconsrikka","@smiley_cosplay_26th1","@i_am_ngvtien06","@pmaosensei","@ngancosplay_204","@nnnnaa1","@anlmecos","@ninokawaiii",""];
+    const edits = ["@iconsrikka","@smiley_cosplay_26th1","@i_am_ngvtien06","@pmaosensei","@ngancosplay_204","@nnnnaa1","@anlmecos","@ninokawaiii","@ssarahh1311","@etamecosplay26","@dumbapples0","@ruuent","@maixphat","@etamecosplay26","@fuyuka05.7","@moli0n"];
     const randomIndex = Math.floor(Math.random() * edits.length);
     const randomEdit = edits[randomIndex];
 
